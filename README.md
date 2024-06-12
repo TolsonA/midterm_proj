@@ -39,6 +39,14 @@ Atlantic hurricane database (HURDAT2) 1851-2023
 hurdat2_1851_2023.txt
 https://www.nhc.noaa.gov/data/
 This dataset (known as Atlantic HURDAT2) has a comma-delimited, text format with six-hourly information on the location, maximum winds, central pressure, and (beginning in 2004) size of all known tropical cyclones and subtropical cyclones.
+
+
 HURDAT Reference
 Landsea, C. W. and J. L. Franklin, 2013: Atlantic Hurricane Database Uncertainty and Presentation of a New Database Format. Mon. Wea. Rev., 141, 3576-3592.
+
+# Launch Constraints needs reviewed
+0 to 300ft is 35kt
+upperlevel winds 60kt
+thick cloud rule - need freezing level avg and cloud depth avg
+0 to 300ft winds where launch vehicle must be sheltered, possibly 65kt
 
