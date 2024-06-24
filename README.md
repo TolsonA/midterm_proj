@@ -49,6 +49,7 @@ Are there options to adjust launch weather constraints when under tropical cyclo
 
 ## Atlantic Basin for Overall Analysis
 - This image represents the area considered the Atlantic Basin. The unfiltered data is tracking tropical cyclone development in this area. 
+- Image from NHC.NOAA.GOV
 
 ![alt text](Images/Atlantic_Basin.png)
 
@@ -60,7 +61,7 @@ Are there options to adjust launch weather constraints when under tropical cyclo
 
 - Note: much of the data before the 1900s is estimated and derived from historical observations. Overall, the data is considered reliable. 
 
-- Outliers: we have seen 2 significantly higher seasons in the last 20 years, but this is not bad data. Over time we can see some years have more favorable conditions for tropical cyclone development. 
+- Outliers: we have seen 2 significantly higher seasons in the last 20 years, but this is not bad data. Over time we can see some years have more favorable conditions for tropical cyclone development.
 
 ![alt text](Images/overall_futuretrend.png)
 
@@ -103,6 +104,7 @@ Are there options to adjust launch weather constraints when under tropical cyclo
 ![alt text](Images/monthly_avg.png)
 
 ## Historical Hurricane Tracks in Aug, Sept, and Oct
+### Charts pulled from NOAA. 
 
 ### August
 - Cyclones predominantly coming from the south to SE. 
