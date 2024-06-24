@@ -1,0 +1,24 @@
+Need a list of constraints for launches including all operations leading up to launch. 
+Launch will be at least 2 categories. SFC to 500ft and then upper level winds.
+Safety for people will be conditions from SFC to 300ft and aircraft limits.
+
+
+launch_constraints = {1:electricfield}
+Electric field rule
+Lightning rule
+Cumulus cloud rule
+Attached anvil cloud rule
+Detached anvil cloud rule
+Debris cloud rule
+Disturbed Weather rule
+Thick cloud rule
+Smoke plume rule
+Triboelectrication rule
+
+User specific rules, which vary
+Flight through precipitation
+Surface winds
+Temperature
+Upper level wind shear
+Solar activity
+Recovery conditions
