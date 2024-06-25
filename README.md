@@ -63,7 +63,7 @@ Are there options to adjust launch weather constraints when under tropical cyclo
 
 - Outliers: we have seen 2 significantly higher seasons in the last 20 years, but this is not bad data. Over time we can see some years have more favorable conditions for tropical cyclone development.
 
-![alt text](Images/overall_futuretrend.png)
+![alt text](Images/Atlantic_Basin_trend.png)
 
 ## Total Count of Tropical Cyclone Type over Time
 
@@ -71,7 +71,7 @@ Are there options to adjust launch weather constraints when under tropical cyclo
 
 - We are usually focused on hurricanes, but this tells us that maybe we should focus on the weaker storms. Tropical Storms and Depressions will be most likely to limit our mission.
 
-![alt text](Images/no_filter_status_counts.png)
+![alt text](Images/Atlantic_Basin_counts.png)
 
 ## Area of Interest going forward
 
@@ -86,7 +86,7 @@ Are there options to adjust launch weather constraints when under tropical cyclo
 - The count of storms is not in whole numbers because it uses a 5 year mean.
 - Still expecting an increasing amount of cyclones going forward. 
 
-![alt text](Images/aoi_futuretrend.png)
+![alt text](Images/aoi_trend.png)
 
 ## Total Count of Tropical Cyclone Strength over Time
 

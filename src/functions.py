@@ -103,7 +103,7 @@ class FilteredTrendlinePlot:
         #for index, value in enumerate(self.cyclones_per_year.values):
         #    plt.text(self.cyclones_per_year.index[index], value, str(value), ha='center', va='bottom')
 
-        plt.title('Total Number of Cyclones per Year with Forecast (Filtered by Lat/Lon)')
+        plt.title('Area of Interest Total Number of Cyclones per Year with Forecast')
         plt.xlabel('Year')
         plt.ylabel('Number of Cyclones')
         plt.ylim(bottom=0)
@@ -143,7 +143,7 @@ class NoFilterTrendlinePlot:
         #for index, value in enumerate(self.cyclones_per_year.values):
         #    plt.text(self.cyclones_per_year.index[index], value, str(value), ha='center', va='bottom')
 
-        plt.title('Total Number of Cyclones per Year with Forecast')
+        plt.title('Atlantic Basin Total Number of Cyclones per Year with Forecast')
         plt.xlabel('Year')
         plt.ylabel('Number of Cyclones')
         plt.ylim(bottom=0)
@@ -184,6 +184,7 @@ class BarChartStatusCountNoFilter:
         ax.set_xlabel('Status of Storm')
         ax.set_ylabel('Count')
         BarChartStatusCountNoFilter.add_labels(self.status_counts.index, self.status_counts, ax)
+        ax.set_title('Atlantic Basin Total Count of Storms using Strength')
         ax.text(0.5, 0.8, f"{self.status_counts.index[0]} occurs '{percentage_first_status:.0f}%' of the time",
          horizontalalignment='center',
          verticalalignment='center',
@@ -228,6 +229,7 @@ class BarChartFilteredStatus:
         ax.set_xlabel('Status of Storm')
         ax.set_ylabel('Count')
         BarChartFilteredStatus.add_labels(self.filter_status_counts.index, self.filter_status_counts, ax)
+        ax.set_title('Area of Interest Total Count of Storms using Strength')
         ax.text(0.5, 0.9, f"{self.filter_status_counts.index[0]} occurs '{percentage_first_status:.0f}%' of the time",
          horizontalalignment='center',
          verticalalignment='center',
